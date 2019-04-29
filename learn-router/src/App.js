@@ -44,7 +44,7 @@ function App() {
                     <Route path='/' exact component={One}></Route>
                     <Route path='/Two' component={Two}></Route>
                     <Route path='/Layout' render={(props)=>(
-                        <Layout history={props.history}>
+                        <Layout>
                             <Switch>
                                 <Route path='/layout' exact component={One}></Route>
                                 <Route path='/layout/two' component={Two}></Route>

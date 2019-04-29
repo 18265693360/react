@@ -11,7 +11,7 @@ class Person extends React.Component {
             <div className="person">
                 <h1>
                     当前用户id是：
-                    {this.props.match.params.id}
+                    {this.props.match.params}
                 </h1>
             </div>
         )
